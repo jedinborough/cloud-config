@@ -1,3 +1,7 @@
 #cloud-config
 ssh_authorized_keys:
   - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDoL9cjaQ7GOI3qQrXH5aK816lAgyDlEQBo8ZXcnWMswzoL3/RyafVPwjVZgedvVMwcRMB4dlMQy3RVbtOoZfpjgCa+anDCd643z11TMSCpjlcMO/yq447PM5s/RlplzA81/UELpv1aW5YaZ3Svq8Mc5y4m4LYKMDa4++haB7HQMNRfMZo275PhJ/NLZtFqZqdhy3trD0avfISrsHsv16hvnAn5vniXzg9bmpV6Gwv/Fm4N1kSt+naW+bATITQdDWwmLKvB3LCn9Q4mlxeSLTk/Aasfh8TnHKyxOoQ5B5XTei/EJx8Qvt5vIkM0LgEXeL1LN0opO7yUj+mhlG1wYjZ3 rogersgrp\jedinborough@BWS-C00863
+
+hostname: rancher02
+rancher:
+  console: centos
